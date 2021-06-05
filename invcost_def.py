@@ -25,7 +25,6 @@ def inventory_cost(filename):
 
 def main():
     filename = raw_input(str("Please Enter the File Name with extension: "))
-    print(filename)
     inventory_cost(filename)
 
 
